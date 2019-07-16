@@ -30,8 +30,10 @@ public class Frag1 extends Fragment {
         final View view = inflater.inflate(R.layout.fragment_frag1, container,false);
         btnChangeColor = view.findViewById(R.id.btnColor);
         iv = view.findViewById(R.id.iv);
+
         String imageUrl = "https://wtffunfact.com/wp-content/uploads/2019/07/fun-fact-Van-Der-Waals-forces.png";
         Picasso.with(getContext()).load(imageUrl).into(iv);
+
         btnChangeColor.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -39,13 +41,13 @@ public class Frag1 extends Fragment {
                 int n = rand.nextInt(4);
                 int color;
                 if (n == 0) {
-                    color = Color.RED;
+                    color = Color.parseColor("#1864de");
                 } else if (n == 1) {
-                    color = Color.BLUE;
+                    color = Color.parseColor("#f78800");
                 } else if (n == 2) {
-                    color = Color.GREEN;
+                    color = Color.parseColor("#9f00ab");
                 } else {
-                    color = Color.MAGENTA;
+                    color = Color.parseColor("#db3712");
                 }
                 view.setBackgroundColor(color);
             }

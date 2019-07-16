@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_margin="10dp"
-    android:background="@android:color/holo_orange_light">
+    android:background="#f78800">
 
     <!-- TODO: Update blank fragment layout -->
 
@@ -21,7 +21,7 @@
             android:paddingLeft="10dp"
             android:paddingTop="20dp"
             android:paddingRight="10dp"
-            android:text='"There is a French company that you can hire to kidnap you. They charge US$1600."'
+            android:text='"There are three golf balls sitting on the moon!"'
             android:textColor="@android:color/background_light"
             android:textSize="18sp"
             android:textStyle="italic" />
@@ -34,7 +34,7 @@
             android:paddingLeft="10dp"
             android:paddingTop="20dp"
             android:paddingRight="10dp"
-            android:text='"Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch is the official name of a village in Wales."'
+            android:text='"Like fingerprints, everyone has a unique tongue print."'
             android:textColor="@android:color/background_light"
             android:textSize="18sp"
             android:textStyle="italic" />
